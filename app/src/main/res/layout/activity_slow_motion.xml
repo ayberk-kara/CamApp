@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlowMotionActivity">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/recordVideoIB"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_videocam"
+        app:tint="@color/white"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/record_video" />
+
+    <ImageView
+        android:id="@+id/thumbnailIV"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"
+        android:contentDescription="Thumbnail" />
+
+    <ImageButton
+        android:id="@+id/slowMotionIB"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_slow_motion"
+        app:tint="@color/white"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/slow_motion" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bwFilterIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_bw_filter"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/bw_filter" />
+
+            <ImageButton
+                android:id="@+id/negativeEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_negative_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/negative_effect" />
+
+            <ImageButton
+                android:id="@+id/posterizeEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_posterize_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/posterize_effect" />
+
+            <ImageButton
+                android:id="@+id/aquaEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_aqua_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/aqua_effect" />
+
+            <ImageButton
+                android:id="@+id/solarizeEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_solarize_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/solarize_effect" />
+
+            <ImageButton
+                android:id="@+id/blackboardEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_blackboard_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/blackboard_effect" />
+
+            <ImageButton
+                android:id="@+id/grayscaleEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_grayscale_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/grayscale_effect" />
+
+            <ImageButton
+                android:id="@+id/vintageEffectIB"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_vintage_effect"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/vintage_effect" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

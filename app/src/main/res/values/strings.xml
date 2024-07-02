@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CamApp</string>
+    <string name="record_video">Record Video</string>
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="flip_camera">Flip Camera</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="slow_motion">Slow Motion</string>
+    <string name="bw_filter">Black and White Filter</string>
+    <string name="negative_effect">Negative Effect</string>
+    <string name="sepia_effect">Sepia Effect</string>
+    <string name="posterize_effect">Posterize Effect</string>
+    <string name="aqua_effect">Aqua Effect</string>
+    <string name="emboss_effect">Emboss Effect</string>
+    <string name="sketch_effect">Sketch Effect</string>
+    <string name="grayscale_effect">Grayscale Effect</string>
+    <string name="vintage_effect">Vintage Effect</string>
+    <string name="solarize_effect">Solarize Effect</string>
+    <string name="blackboard_effect">Blackboard Effect</string>
+</resources>
